@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family= Righteous & family= Work+Sans:wght@100;300;400;600;800 & display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+html{
+    /* me permite deslizar cuando hago click en los link del menu */
+    scroll-behavior: smooth;
+}
+/*MENU*/
+.contenedor-header{
+    background: #1e2326;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.contenedor-header header{ /*para centrar el indice*/
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+.contenedor-header .logo a{ 
+    font-family:'Righteous';
+    font-size: 36px;
+    color:#dd0ee4;
+    text-decoration: none;
+}
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+.contenedor-header header nav ul li a{ /* color blanco a las letras del indice y espacio*/
+    text-align: none;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: 5s;
+    text-decoration: none;
+}
+.contenedor-header header nav ul li a:hover{ /*color al pasar sobre el indice*/
+    color: #dd0ee4;
+}
+.nav-responsive{ /*cuadrado del menu*/
+    background-color: #dd0ee4;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+/*seccion I N I C I O * fondo - color letras lic.adm empresa*/
+.inicio{
+    background: url(img/fondo.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: hsl(0, 0%, 4%);
+    display: flex;
+    align-items: center;
+}
+.inicio .contenido-banner{ /*recuadro del banner centrado*/
+    padding: 0px;
+    background-color: #fff;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+.inicio .contenido-banner img{
+    margin-top: 40px;
+    border: 10px solid #fff;
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-radius: 100%;
+}
+.inicio .contenido-banner h1{
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: 'Righteous';
+}
+.inicio .contenido-banner h2{
+    font-size: 15px;
+    font-size: normal;
+}
+.inicio .contenido-banner .redes a{
+    color: rgb(45, 7, 56);
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid rgb(45, 7, 56);
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+.inicio .contenido-banner .redes a:hover{ /*color boton redes*/
+    background-color: #dd0ee4;
+}
