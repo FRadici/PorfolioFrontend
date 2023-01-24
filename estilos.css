@@ -105,3 +105,12 @@ html{
 .inicio .contenido-banner .redes a:hover{ /*color boton redes*/
     background-color: #dd0ee4;
 }
+.sobre mi{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 58px 20px;
+}
+.sobre mi .contenido-seccion{
+    max-width: 110px;
+    margin: auto;
+}
