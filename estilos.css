@@ -105,12 +105,18 @@ html{
 .inicio .contenido-banner .redes a:hover{ /*color boton redes*/
     background-color: #dd0ee4;
 }
-.sobre mi{
-    background-color: #1e2326;
-    color: #fff;
+.sobremi{
+    background-color: #fff;
+    color:#1e2326;
     padding: 58px 20px;
 }
-.sobre mi .contenido-seccion{
-    max-width: 110px;
+.sobremi .contenido-seccion{
+    max-width: 1100px;
     margin: auto;
+}
+.sobremi h2{
+    font-size: 48px;
+    font-family:'Righteous';
+    text-align: center;
+    padding: 20px 0px;
 }
