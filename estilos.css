@@ -59,7 +59,7 @@ html{
 .inicio{
     background: url(img/fondo.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 120vh; /*para centrar foto*/
     color: hsl(0, 0%, 4%);
     display: flex;
     align-items: center;
@@ -81,7 +81,7 @@ html{
     border-radius: 100%;
 }
 .inicio .contenido-banner h1{
-    margin-top: 40px;
+    margin-top: 10px;
     font-size: 42px;
     font-family: 'Righteous';
 }
@@ -129,7 +129,7 @@ html{
     color: rgb(66, 8, 73);
     font-weight: bold;
 }
-.sobremi .fila{
+.sobremi .fila{ /*separacion en dos */
     display: flex;
 }
 .sobremi .fila .col{
@@ -144,5 +144,52 @@ html{
 list-style: none;
 }
 .sobremi .fila .col ul li{
-    margin: 12px p;
+    margin: 12px 0;
+}
+.sobremi .fila .col ul li strong{
+    display: inline-block;
+    color: #5e0661;
+    width: 130px;
+}
+.sobremi .fila .col ul li strong{/*fondo de color de datos personales*/
+    background: #ece9ec;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.sobremi .fila .col .contenedor-intereses{
+    display: flex;
+    flex-wrap:wrap;
+}
+.sobremi .fila .col .contenedor-intereses .intereses{
+    width: 100px;
+    height: 100px;
+    background-color: #ece9ec;
+    border-radius: 10px;
+    margin: 0 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 3s;
+}
+.sobremi .fila .col .contenedor-intereses .intereses:hover{
+    background-color:#dd0ee4;
+}
+.sobremi .fila .col .contenedor-intereses .intereses i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.sobremi button{
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #4d044d;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #010002;
+    position: relative;
+    z-index: 10;
 }
