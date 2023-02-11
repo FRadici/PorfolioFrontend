@@ -11,7 +11,7 @@ html{
 }
 /*MENU*/
 .contenedor-header{
-    background: #1e2326;
+    background: #030303;
     position:fixed;
     width: 100%;
     top: 0;
@@ -38,7 +38,7 @@ html{
 }
 .contenedor-header header nav ul li a{ /* color blanco a las letras del indice y espacio*/
     text-align: none;
-    color: #fff;
+    color: rgb(243, 238, 238);
     margin: 0 15px;
     padding: 3px;
     transition: 5s;
@@ -57,16 +57,16 @@ html{
 }
 /*seccion I N I C I O * fondo - color letras lic.adm empresa*/
 .inicio{
-    background: url(img/fondo.jpg);
+    background: url(img/fondo\ 1.jpg);
     background-size: cover;
     height: 120vh; /*para centrar foto*/
-    color: hsl(0, 0%, 4%);
+    color: hsl(320, 13%, 95%);
     display: flex;
     align-items: center;
 }
 .inicio .contenido-banner{ /*recuadro del banner centrado*/
     padding: 0px;
-    background-color: #fff;
+    background-color:#030303;
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -74,7 +74,7 @@ html{
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid #fff;
+    border: 10px solid #030303;
     display: block;
     width: 50%;
     margin: auto;
@@ -90,10 +90,10 @@ html{
     font-size: normal;
 }
 .inicio .contenido-banner .redes a{
-    color: rgb(45, 7, 56);
+    color: rgb(250, 244, 244);
     display: inline-block;
     text-decoration: none;
-    border: 1px solid rgb(45, 7, 56);
+    border: 1px solid  #1CB698(320, 77%, 24%);
     border-radius: 100%;
     width: 42px;
     height: 42px;
@@ -106,8 +106,8 @@ html{
     background-color: #dd0ee4;
 }
 .sobremi{
-    background-color: #fff;
-    color:#1e2326;
+    background-color: #030303;
+    color:#fdfafa;
     padding: 58px 20px;
 }
 .sobremi .contenido-seccion{
@@ -126,7 +126,7 @@ html{
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: rgb(66, 8, 73);
+    color: #dd0ee4(66, 8, 73);
     font-weight: bold;
 }
 .sobremi .fila{ /*separacion en dos */
@@ -148,11 +148,11 @@ list-style: none;
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #5e0661;
+    color:#dd0ee4;
     width: 130px;
 }
 .sobremi .fila .col ul li strong{/*fondo de color de datos personales*/
-    background: hsl(0, 0%, 3%);
+    background: hsl(0, 56%, 98%);
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -164,7 +164,7 @@ list-style: none;
 .sobremi .fila .col .contenedor-intereses .intereses{
     width: 100px;
     height: 100px;
-    background-color: #ece9ec;
+    background-color: #f5f1f1;
     border-radius: 10px;
     margin: 0 15px 0 15px;
     display: flex;
@@ -183,13 +183,13 @@ list-style: none;
 .sobremi button{
     cursor: pointer;
     background: transparent;
-    border: 2px solid #4d044d;
+    border: 2px solid #dd0ee4;
     width: fit-content;
     display: block;
     margin: 20px auto;
     padding: 10px 22px;
     font-size: 16px;
-    color: #010002;
+    color: #030303;
     position: relative;
     z-index: 10;
 }
@@ -209,7 +209,7 @@ list-style: none;
 
 /* SECCION S K I L L S */
 .skills{
-    background-color: #252A2E;
+    background-color:#030303;
     color: #fff;
     padding: 50px 20px;
 }
@@ -244,7 +244,7 @@ list-style: none;
 .skills .skill .barra-skill{
     height: 8px;
     width: 80%;
-    background-color: #131517;
+    background-color: #030303;
     position: relative;
     margin-bottom: 30px;
 }
@@ -359,7 +359,7 @@ list-style: none;
 }
 /* SECCION CURRICULUM */
 .curriculum{
-    background-color: #1e2326;
+    background-color:#030303;
     color: #fff;
     padding: 50px 20px;
 }
@@ -388,15 +388,15 @@ list-style: none;
     margin-bottom: 25px;
 }
 .curriculum .fila .izquierda{
-    border-right: 2px solid #252A2E;
+    border-right: 2px solid#030303;
 }
 .curriculum .fila .derecha{
-    border-left: 2px solid #252A2E;
+    border-left: 2px solid#030303;
 }
 .curriculum .fila .item{
     padding: 25px;
     margin-bottom: 30px;
-    background-color: #252A2E;
+    background-color: #030303;
     position: relative;
 }
 .curriculum .fila .item h4{
@@ -465,7 +465,7 @@ list-style: none;
 }
 /* SECCION PORTFOLIO */
 .portfolio{
-    background-color: #252A2E;
+    background-color:#030303;
     color: #fff;
     padding: 50px 20px;
 }
@@ -523,7 +523,7 @@ list-style: none;
 /* SECCION CONTACTO */
 .contacto{
     background-image: url(img/contact_bg.png);
-    background-color: #1e2326;
+    background-color:#030303;
     color: #fff;
     padding: 50px 0;
 }
@@ -551,7 +551,7 @@ list-style: none;
     padding: 18px;
     border: none;
     margin-bottom: 20px;
-    background-color: #252A2E;
+    background-color:#030303;
     color: #fff;
     font-size: 18px;
 }
@@ -587,9 +587,9 @@ list-style: none;
 .contacto .col .info{
     position: absolute;
     top: 40%;
-    background-color: #252A2E;
+    background-color: #030303;
     padding: 20px;
-    max-swidth: 350px;
+    max-width: 35px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -655,7 +655,7 @@ footer .arriba{
         position: absolute;
         right: 0;
         top: 75px;
-        background-color: #252A2E;
+        background-color: #030303;
         width: 180px;
     }
     nav.responsive ul{
