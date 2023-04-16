@@ -6,6 +6,7 @@ import { InicioComponent } from './componentes/inicio/inicio.component';
 import { SobremiComponent } from './componentes/sobremi/sobremi.component';
 import { SkillsComponent } from './componentes/skills/skills.component';
 import { CurriculumComponent } from './componentes/curriculum/curriculum.component';
+import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CurriculumComponent } from './componentes/curriculum/curriculum.compone
     InicioComponent,
     SobremiComponent,
     SkillsComponent,
-    CurriculumComponent
+    CurriculumComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule
