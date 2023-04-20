@@ -17,7 +17,7 @@ import { ContactoComponent } from './components/contacto/contacto.component';
     SkillsComponent,
     CurriculumComponent,
     PortfolioComponent,
-    ContactoComponent
+    ContactoComponent,
   ],
   imports: [
     BrowserModule
