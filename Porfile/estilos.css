@@ -17,7 +17,7 @@ html{
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 99;
+    z-index:9;
 }
 .contenedor-header header{ /*para centrar el indice*/
   max-width: 1000px;
