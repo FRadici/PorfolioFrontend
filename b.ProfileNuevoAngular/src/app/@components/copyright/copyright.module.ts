@@ -10,6 +10,7 @@ import { CopyrightComponent } from './copyright.component';
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports:[CopyrightComponent]
 })
 export class CopyrightModule { }

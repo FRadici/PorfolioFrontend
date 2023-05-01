@@ -10,6 +10,7 @@ import { ImageItemComponent } from './image-item.component';
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports:[ImageItemComponent]
 })
 export class ImageItemModule { }

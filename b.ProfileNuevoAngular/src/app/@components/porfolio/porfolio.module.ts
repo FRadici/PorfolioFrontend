@@ -10,6 +10,7 @@ import { PorfolioComponent } from './porfolio.component';
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports:[PorfolioComponent]
 })
 export class PorfolioModule { }
