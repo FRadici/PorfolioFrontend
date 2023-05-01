@@ -13,10 +13,21 @@ import { HeaderModule } from './@components/header/header.module';
 import { NavbarModule } from './@components/navbar/navbar.module';
 import { PorfolioModule } from './@components/porfolio/porfolio.module';
 import { SkillsModule } from './@components/skills/skills.module';
+import { loginComponents} from './@components/login/login.component';
+import { Routes } from '@angular/router';
+
+
+
+
+const appRoutes:Routes=[
+  {path:'login',component:loginComponents}
+
+];
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -29,7 +40,8 @@ import { SkillsModule } from './@components/skills/skills.module';
     HeaderModule,
     NavbarModule,
     PorfolioModule,
-    SkillsModule
+    SkillsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
