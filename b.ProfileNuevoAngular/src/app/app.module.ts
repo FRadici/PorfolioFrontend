@@ -20,13 +20,14 @@ import { Routes } from '@angular/router';
 
 
 const appRoutes:Routes=[
-  {path:'login',component:loginComponents}
+  {path:'login',component:loginComponents},
 
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
+    loginComponents,
 
   ],
   imports: [
