@@ -12,7 +12,8 @@ import { NavbarModule } from './@components/navbar/navbar.module';
 import { PorfolioModule } from './@components/porfolio/porfolio.module';
 import { SkillsModule } from './@components/skills/skills.module';
 import { FooterModule } from './@components/footer/footer.module';
-import { LoginModule } from './@components/login/login.module';
+import { UsuarioModule } from './@components/usuario/usuario.module';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { LoginModule } from './@components/login/login.module';
     PorfolioModule,
     SkillsModule,
     FooterModule,
-    LoginModule
+    UsuarioModule,
+   
   
       ],
   bootstrap: [AppComponent]
