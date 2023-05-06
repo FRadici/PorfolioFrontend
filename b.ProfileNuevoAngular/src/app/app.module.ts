@@ -8,26 +8,16 @@ import { ContactModule } from './@components/contact/contact.module';
 import { CopyrightModule } from './@components/copyright/copyright.module';
 import { CurriculumModule } from './@components/curriculum/curriculum.module';
 import { FooterModule } from './@components/footer/footer.module';
-import { HeaderComponent } from './@components/header/header.component';
 import { HeaderModule } from './@components/header/header.module';
 import { NavbarModule } from './@components/navbar/navbar.module';
 import { PorfolioModule } from './@components/porfolio/porfolio.module';
 import { SkillsModule } from './@components/skills/skills.module';
-import { loginComponents} from './@components/login/login.component';
-import { Routes } from '@angular/router';
 
-
-
-
-const appRoutes:Routes=[
-  {path:'login',component:loginComponents},
-
-];
 
 @NgModule({
   declarations: [
     AppComponent,
-    loginComponents,
+
 
   ],
   imports: [
@@ -44,7 +34,6 @@ const appRoutes:Routes=[
     SkillsModule,
 
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
